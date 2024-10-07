@@ -11,13 +11,13 @@ function AboutUsSection() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPositionX: "center",
-        objectFit: "cover",
+        // objectFit: "cover",
       }}
       className="overflow-hidden"
     >
-      <div className=" h-[760px] lg:h-auto relative  mx-[100px] lg2:mx-[60px] lg:mx-32px lg:flex-col-reverse lg:items-start flex  items-center  justify-between">
+      <div className=" h-[760px] lg:h-auto relative  mx-[100px] lg2:mx-[60px]  lg:mx-[32px] lg:flex-col-reverse lg:items-start flex  items-center  justify-between">
         <div className="w-[720px] xl:w-[600px] lg2:w-[490px] lg:w-full ">
-          <h1 className="text-[#FFFFFF] font-bold font-neuePlak text-[72px] leading-[101px] ">
+          <h1 className="text-[#FFFFFF] font-bold font-neuePlak text-[72px] md:text-[32px] md:leading-[45px] md:mb-[15px] leading-[101px] ">
             About <span className="text-[#D91E27]">us</span>
           </h1>
           <p className="text-[28px] font-bold font-neuePlak text-[#D91E27] leading-[39.45px]">
@@ -40,19 +40,19 @@ function AboutUsSection() {
             Know more
           </button>
         </div>
-        <div className="relative">
+        <div className="relative md:mt-[64px]">
           <div
-            className=" absolute right-[-78px] top-[-1rem] w-[100px] h-[281px] bg-[#D9D9D9]"
+            className=" absolute right-[-78px] top-[-1rem] md:right-[150px] w-[100px] h-[281px] bg-[#D9D9D9]"
             style={{ transform: "skew(-50deg)" }}
           />
           <div
-            className=" absolute right-[-78px] top-[14rem] w-[120px] h-[60px] opacity-60  "
+            className=" absolute right-[-78px] top-[14rem] w-[120px] md:right-[100px] md:top-[182px] h-[60px] opacity-60  "
             style={{
               transform: "rotate(51deg) skew(2deg)",
               background: "linear-gradient(to bottom, #000, #FF0000)",
             }}
           />
-          <div className="w-[600px] " style={{ transform: "translateX(270px)" }}>
+          <div className="w-[600px] md:w-[489px] transform translate-x-[270px] md:translate-x-[30px]" >
             <Image src={truck} alt="truck" width={750} />
           </div>
         </div>

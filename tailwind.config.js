@@ -46,7 +46,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Poppins: "Poppins",
-        neuePlak: ['"Neue Plak"', 'sans-serif']
+        neuePlak: ['Neue Plak', 'sans-serif']
       },
     },
   },
