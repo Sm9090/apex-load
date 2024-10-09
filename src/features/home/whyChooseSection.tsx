@@ -43,7 +43,7 @@ function WhyChooseSection() {
           <div className="w-4 h-4 bg-[#D91E27] absolute z-10 right-[-9px] top-[150px] rounded-full lg:hidden" />
         </div>
         <div className="lg:mt-[33px] " >
-          <h1 className="text-[#FFFFFF] pl-[48px] pb-[20px] font-bold font-neuePlak text-[72px] lg2:text-[50px] leading-[101px] lg:hidden ">
+          <h1 className="text-[#FFFFFF] pl-[48px] pb-[20px] font-bold font-neuePlak text-[72px] xl:text-[50px] leading-[101px] lg:hidden ">
             Why Choose <span className="text-[#D91E27]">Us</span>
           </h1>
           <Swiper
@@ -75,7 +75,7 @@ function WhyChooseSection() {
               {cards.map((card, index) => (
                 <SwiperSlide
                   key={index}
-                  className="bg-[#D91E27] p-8 rounded-md  !w-[619px] lg2:!w-auto "
+                  className="bg-[#D91E27] p-8 rounded-md   lg2:!w-auto "
                 >
                   <li>
                     <div className="mb-[13px] flex items-start gap-[15px]  relative">
