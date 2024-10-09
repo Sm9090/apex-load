@@ -43,7 +43,7 @@ function WhyChooseSection() {
           <div className="w-4 h-4 bg-[#D91E27] absolute z-10 right-[-9px] top-[150px] rounded-full lg:hidden" />
         </div>
         <div className="lg:mt-[33px] " >
-          <h1 className="text-[#FFFFFF] pl-[48px] pb-[20px] font-bold font-neuePlak text-[72px] xl:text-[50px] leading-[101px] lg:hidden ">
+          <h1 className="text-[#FFFFFF] pl-[48px] pb-[20px] font-bold font-neuePlak text-[72px] 1xl:text-[65px] xl:text-[50px] leading-[101px] lg:hidden ">
             Why Choose <span className="text-[#D91E27]">Us</span>
           </h1>
           <Swiper
@@ -54,6 +54,7 @@ function WhyChooseSection() {
             modules={[Navigation]}
             breakpoints={{
               1024: {
+                slidesPerView: 1.5,
                 spaceBetween: 40,
               },
               768: {
